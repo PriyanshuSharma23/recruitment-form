@@ -12,7 +12,7 @@ export const ParallaxScene: Component = () => {
   });
 
   return (
-    <div id="scene" class="h-screen w-screen overflow-hidden">
+    <div id="scene" class="fixed inset-0 overflow-hidden">
       <div
         data-depth="0.2"
         class="

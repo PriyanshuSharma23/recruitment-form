@@ -72,8 +72,8 @@ const SocietySelection: Component = () => {
   };
 
   return (
-    <main class="fixed bottom-0 top-5 left-1/2 -translate-x-1/2 w-[95vw] max-w-7xl  bg-base-300/70 rounded-t-md shadow-2xl">
-      <div class="p-3 border-b flex justify-between sticky top-0">
+    <main class="fixed bottom-0 top-5 left-1/2 -translate-x-1/2 w-[95vw] max-w-7xl  bg-base-300/70 rounded-t-md shadow-2xl pb-4 overflow-y-scroll">
+      <div class="p-3 border-b flex justify-between sticky top-0 bg-base-300 z-20">
         <h1 class="text-4xl font-bold ">Society Selection</h1>
         <div>
           <button
@@ -94,7 +94,7 @@ const SocietySelection: Component = () => {
         </div>
       </div>
 
-      <section class="h-[80vh] md:h-[88vh] overflow-y-scroll py-2">
+      <section class="overflow-y-scroll py-2">
         <For each={Object.entries(societyData)}>
           {([key, value], i) => (
             <>

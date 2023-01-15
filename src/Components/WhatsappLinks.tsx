@@ -45,7 +45,7 @@ const WhatsappLinks = () => {
   });
 
   return (
-    <main class="fixed bottom-0 left-1/2 -translate-x-1/2 h-[95vh] w-[95vw] md:w-[80vw] bg-base-300/80 flex gap-2 flex-col p-2 overflow-y-scroll">
+    <main class="fixed top-5 bottom-0 left-1/2 -translate-x-1/2  w-[95vw] md:w-[80vw] bg-base-300/80 flex gap-2 flex-col p-2 overflow-y-scroll">
       {/* get links from data */}
 
       <For each={socities()}>
