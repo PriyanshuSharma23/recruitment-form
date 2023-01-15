@@ -18,7 +18,7 @@ export let data = {
     CAPELLA: {
       img: "https://picsum.photos/200/200",
     },
-    MIRAJE: {
+    MIRAGE: {
       img: "https://picsum.photos/200/200",
       whatsapp: "https://chat.whatsapp.com/Ls2lWjd1jlx94y65I20Smf",
     },
