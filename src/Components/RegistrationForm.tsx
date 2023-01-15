@@ -84,7 +84,9 @@ const RegistrationForm: Component = () => {
       !universityRollNumber()
         .toLocaleUpperCase()
         .includes(branchRoll[branch() as branch]) ||
-      universityRollNumber().length !== 11
+      universityRollNumber().length !== 11 ||
+      !/^\d+$/.test(universityRollNumber().slice(7)) ||
+      !["2020", "2021", "2022"].includes(universityRollNumber().slice(0, 4))
     ) {
       setUniversityRollNumberError(
         "Please enter a valid University Roll Number"

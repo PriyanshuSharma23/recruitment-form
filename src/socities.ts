@@ -10,6 +10,7 @@ export let data = {
     },
     CRESCENDO: {
       img: "https://picsum.photos/200/200",
+      whatsapp: "https://chat.whatsapp.com/L5AfgP4epbq606yZXc3Ro5",
     },
     CANVAS: {
       img: "https://picsum.photos/200/200",
@@ -17,6 +18,7 @@ export let data = {
     },
     CAPELLA: {
       img: "https://picsum.photos/200/200",
+      whatsapp: "https://chat.whatsapp.com/GnWT1F9VewX7kA81RhsgcC",
     },
     MIRAGE: {
       img: "https://picsum.photos/200/200",
@@ -24,6 +26,7 @@ export let data = {
     },
     SHAKESJEER: {
       img: "https://picsum.photos/200/200",
+      whatsapp: "https://chat.whatsapp.com/HD8WSDSU7cnABew7xXY7zF",
     },
   },
   "TECHNICAL SOCIETY CHAPTER": {
@@ -89,6 +92,7 @@ export let data = {
     },
     INTAGLIOS: {
       img: "https://picsum.photos/200/200",
+      whatsapp: "https://chat.whatsapp.com/Ijx0XQrP2rt43UHwGK2FH7",
     },
     AXIOM: {
       img: "https://picsum.photos/200/200",
